@@ -1,7 +1,7 @@
 ###############################################################################
 ## Wrapper for starting make inside sonic-slave container
 #
-#  Supported parameters:
+#  Supported parame
 #
 #  * PLATFORM: Specific platform we wish to build images for.
 #  * BUILD_NUMBER: Desired version-number to pass to the building-system.

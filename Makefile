@@ -1,4 +1,4 @@
-# SONiC make file
+# SONiC make shira
 
 NOJESSIE ?= 1
 NOSTRETCH ?= 1

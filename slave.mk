@@ -10,6 +10,8 @@ USER = $(shell id -un)
 UID = $(shell id -u)
 GUID = $(shell id -g)
 
+this is my chnage
+
 ifeq ($(SONIC_IMAGE_VERSION),)
 	override SONIC_IMAGE_VERSION := $(shell export BUILD_TIMESTAMP=$(BUILD_TIMESTAMP) && export BUILD_NUMBER=$(BUILD_NUMBER) && . functions.sh && sonic_get_version)
 endif
